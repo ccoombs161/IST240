@@ -1,6 +1,0 @@
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\LINQInvoiceArray.exe.config
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\LINQInvoiceArray.exe
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\LINQInvoiceArray.pdb
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\LINQInvoiceArray.csprojResolveAssemblyReference.cache
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\LINQInvoiceArray.exe
-C:\Users\NHTI\Documents\GitHub\IST240\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\LINQInvoiceArray.pdb

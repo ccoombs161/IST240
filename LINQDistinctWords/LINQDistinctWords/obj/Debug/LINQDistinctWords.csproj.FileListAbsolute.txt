@@ -1,5 +1,0 @@
-C:\Users\NHTI\Documents\GitHub\IST240\LINQDistinctWords\LINQDistinctWords\bin\Debug\LINQDistinctWords.exe.config
-C:\Users\NHTI\Documents\GitHub\IST240\LINQDistinctWords\LINQDistinctWords\bin\Debug\LINQDistinctWords.exe
-C:\Users\NHTI\Documents\GitHub\IST240\LINQDistinctWords\LINQDistinctWords\bin\Debug\LINQDistinctWords.pdb
-C:\Users\NHTI\Documents\GitHub\IST240\LINQDistinctWords\LINQDistinctWords\obj\Debug\LINQDistinctWords.exe
-C:\Users\NHTI\Documents\GitHub\IST240\LINQDistinctWords\LINQDistinctWords\obj\Debug\LINQDistinctWords.pdb
