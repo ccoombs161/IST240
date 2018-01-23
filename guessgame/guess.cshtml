@@ -3,7 +3,7 @@
 @{
 if (IsPost) { 
 string guess = Request["yourguess"]; 
-
+<p>Guessing Game<p>
 <p>You entered: <br />
 Company Name: @companyname <br />
 Contact Name: @contactname </p>
@@ -12,7 +12,7 @@ else
 {
 <form method="get" action="">
 Company Name:<br />
-<input type="text" name="yourGuess" value="" /><br />
+<input type="text" name="yourguessuess" value="" /><br />
 Contact Name:<br />
 <input type="submit" value="Submit" class="submit" />
 </form>
