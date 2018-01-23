@@ -2,8 +2,8 @@
 <body> 
 @{
 if (IsPost) { 
-string companyname = Request["CompanyName"]; 
-string contactname = Request["ContactName"]; 
+string guess = Request["yourguess"]; 
+
 <p>You entered: <br />
 Company Name: @companyname <br />
 Contact Name: @contactname </p>
@@ -12,9 +12,8 @@ else
 {
 <form method="get" action="">
 Company Name:<br />
-<input type="text" name="CompanyName" value="" /><br />
+<input type="text" name="yourGuess" value="" /><br />
 Contact Name:<br />
-<input type="text" name="ContactName" value="" /><br /><br />
 <input type="submit" value="Submit" class="submit" />
 </form>
 }
