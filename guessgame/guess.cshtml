@@ -7,10 +7,11 @@ int randomNumber = random.Next(0, 10);
 if (IsPost) { 
  string guess = Request["yourguess"];
 	int32 yourguess = Int32.Parse(guess);
-	if int32
-<p>Guessing Game<p>
-<p>You entered: <br />
-<p>Correct!<p>
+	if (int32==randomNumber) 
+	{<p>Guessing Game<p>
+	<p>You entered: <br />
+	<p>Correct!<p>}
+
 
 }
 else if ( guess > newnum)
