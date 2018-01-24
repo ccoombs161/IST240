@@ -1,27 +1,25 @@
 <html>
 <body> 
 @{
-Random random = new Random();
-int randomNumber = random.Next(0, 10);
+	string message = "";
+	Random random = new Random();
+	int randomNumber = random.Next(0, 10);
 
-if (IsPost) { 
- string guess = Request["yourguess"];
-	int32 yourguess = Int32.Parse(guess);
-	if (int32==randomNumber) 
-	{<p>Guessing Game<p>
-	<p>You entered: <br />
-	<p>Correct!<p>}
-
-
-
-else if ( guess > newnum)
-{
-	<p>Your guess is too high!<p>
-}
-else  
-{
-	<p>Your guess is too low!<p>
-} 
+	if (IsPost) { 
+		string guess = Request["yourguess"];
+		int yourguess = Convert.ToInt32(guess);
+		if (yourguess == randomNumber) {
+			message = "You guessed it!";
+		}
+		else if ( guess > newnum)
+		{
+			message = "Too High";
+		}
+		else  
+		{
+			message = "Too Low";
+		} 
+	}
 }
 <form method="get" action="">
 Company Name:<br />
@@ -29,6 +27,7 @@ Company Name:<br />
 What is your guess?<br />
 <input type="submit" value="Submit" class="submit" />
 </form>
+<p>@message</p>
 </body> 
 </html>
 
