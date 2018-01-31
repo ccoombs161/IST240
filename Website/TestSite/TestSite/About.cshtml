@@ -2,34 +2,38 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "About";
 }
-
+@section QOTD {
+    <p>QOTD: Perfection is not attainable, but if we chase perfection we can
+    catch excellence. - Vince Lombardi</p>
+}
 <hgroup class="title">
     <h1>@Page.Title.</h1>
-    <h2>Your app description page.</h2>
+    <h2>Northeast 4X4.</h2>
 </hgroup>
 
 <article>
     <p>
-        Use this area to provide additional information.
+       We are a company that specailzies in custom 4 wheel drives.
     </p>
 
     <p>
-        Use this area to provide additional information.
+       We install lift kits, bigger tires, and other custom parts.
     </p>
 
     <p>
-        Use this area to provide additional information.
+        Enjoy our QOTD: section and GuessGame.
     </p>
 </article>
 
 <aside>
-    <h3>Aside Title</h3>
+    <h3>Quick Tabs</h3>
     <p>
-        Use this area to provide additional information.
+       Here are links for our other tabs.
     </p>
     <ul>
         <li><a href="~/">Home</a></li>
         <li><a href="~/About">About</a></li>
         <li><a href="~/Contact">Contact</a></li>
+        <li><a href="~/ContentPage.cshtml">GuessGame</a></li>
     </ul>
 </aside>

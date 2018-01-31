@@ -1,0 +1,44 @@
+﻿@{
+    Page.Title = "ContentPage";
+    Layout = "~/_SiteLayout.cshtml";
+}
+
+@section QOTD {
+    <p>QOTD: Believe you can and you're halfway there. - Theodore Roosevelt</p>
+    }
+<div>
+    <html>
+    <body>
+        @{
+        string message = "";
+        Random random = new Random();
+        int randomNumber = random.Next(0, 10);
+
+        if (IsPost)
+        {
+            string guess = Request["yourguess"];
+            int yourguess = Convert.ToInt32(guess);
+            if (yourguess == randomNumber)
+            {
+                message = "You guessed it!";
+            }
+            else if (randomNumber > yourguess)
+            {
+                message = "Too High";
+            }
+            else
+            {
+                message = "Too Low";
+            }
+        }
+        }
+        <form method="post" action="">
+            Your Guess:<br />
+            <input type="text" name="yourguess" value="" /><br />
+            What is your guess?<br />
+            <input type="submit" value="Submit" class="submit" />
+        </form>
+        <p>@message, @randomNumber</p>
+    </body>
+    </html>
+</div>
