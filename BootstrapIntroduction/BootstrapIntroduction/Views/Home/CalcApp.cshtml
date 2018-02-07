@@ -1,0 +1,22 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "CalcApp";
+    
+}
+
+<h2>CalcApp</h2>
+ <p>Value: @Model  </p>
+
+<form method="post">
+    <input type="number" name="ValA" />
+    <input type="number" name="ValB" />
+    <p><input type="radio" name="Op" value="Add" checked="checked"/>Add</p>
+    <p><input type="radio" name="Op" value="Sub" />Subtract</p>
+    <p><input type="radio" name="Op" value="Multi"/>Multiply</p>
+    <p><input type="radio" name="Op" value="Div" />Divide</p>
+    
+    <button>Submit</button>
+    
+    
+</form>
