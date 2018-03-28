@@ -10,7 +10,7 @@ namespace WebApplication1.Models
         public QueryOptions()
         {
             CurrentPage = 1;
-            PageSize = 3;
+            PageSize = 5;
 
             SortField = "Id";
             SortOrder = SortOrder.ASC;
