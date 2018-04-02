@@ -1,4 +1,4 @@
-﻿function AuthorFromViewModel() {
+﻿function AuthorFormViewModel() {
     var self = this;
 
     self.saveCompleted = ko.observable(false);
