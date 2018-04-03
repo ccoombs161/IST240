@@ -11,6 +11,7 @@ using System.Web.Mvc;
 using WebApplication1.DAL;
 using WebApplication1.Models;
 
+
 namespace WebApplication1.Controllers
 {
     public class AuthorsController : Controller
@@ -36,8 +37,14 @@ namespace WebApplication1.Controllers
             return View(authors.ToList());
         }
 
-        // GET: Authors/Details/5
-        public ActionResult Details(int? id)
+        // GET: Authors/Create
+        public ActionResult Create()
+        {
+            return View("Form", new Author());
+        }
+
+        // GET: Authors/Edit/5
+        public ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -48,13 +55,7 @@ namespace WebApplication1.Controllers
             {
                 return HttpNotFound();
             }
-            return View(author);
-        }
-
-        // GET: Authors/Create
-        public ActionResult Create()
-        {
-            return View();
+            return View("Form", author);
         }
 
         // POST: Authors/Create
@@ -73,7 +74,7 @@ namespace WebApplication1.Controllers
 
             return View(author);
         }
-
+        
         // GET: Authors/Edit/5
         public ActionResult Edit(int? id)
         {
